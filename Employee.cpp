@@ -15,7 +15,7 @@ void Employee::setFirstName( const string &first )
 	firstName = first;
 }
 
-void Employee:getFirstName() const
+string Employee::getFirstName() const
 {
 	return firstName;
 }
@@ -27,7 +27,7 @@ void Employee::setLastName( const string &last )
 }
 
 // return last name
-void Employee::getLastName() const 
+string Employee::getLastName() const 
 {
 	return lastName;
 }
@@ -37,7 +37,7 @@ void Employee::setSocialSecurityNumber( const string &ssn )
 	socialSecurityNumber = ssn;
 }
 
-void Employee::getSocialSecurityNumber() const
+string Employee::getSocialSecurityNumber() const
 {
 	return socialSecurityNumber;
 }
